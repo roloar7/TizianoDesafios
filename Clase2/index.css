@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E4F4F;
+    position: fixed;
+    border-bottom: 3px solid rgb(15, 15, 15);
+    width: 100%;
+    box-shadow: 0 20px 25px -20px;
+    z-index: 3;
+}
+.ul_nav {
+    display: flex;
+}
+.menu_1 {
+    display: flex;
+    text-decoration: none;
+}
+.menu  {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 0px 25px;
+    line-height: 65px;
+}
+.menu:hover {
+    cursor: pointer;
+    background-color: rgb(11, 65, 22);
+    border-radius: 3px;
+    padding: auto;
+    transition: all .3s ease-in-out;
+}
+.logo {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 20 50px;
+    line-height: 50px;
+}
+nav ul li {
+    list-style: none;
+    line-height: 25px;
+    color: white;
+    margin: 15px;
+}
+nav ul li:hover {
+    cursor: pointer;
+    background-color: rgb(11, 65, 22);
+    padding: 6px 10px;
+    transition: 0.5s;
+}
+
+#user {
+    font-size: xx-large;
+    list-style: none;
+    color: white;
+    padding: 10px 20px;
+}
+#user:hover {
+    cursor: pointer;
+    background-color: rgb(11, 65, 22);
+    border-radius: 3px;
+    transition: 0.5s;
+    
+}
+.user_1 {
+    display: flex;
+}
+
+#iniciar_sesion {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 14px 10px;
+}
+#iniciar_sesion:hover {
+    cursor: pointer;
+    text-decoration: underline solid 3px white;
+}
+:root {
+    --white: #f5f5f5;
+    --light: #E0F4FF;
+    --tan: #87C4FF;
+    --celeste_oscuro: #39A7FF;
+    --celeste_claro: #C5FFF8;
+    --dark: #4E4E4E;
+    --celeste: #5FBDFF;
+    --black: rgb(0, 0, 0);
+}
+.tienda {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: xx-large;
+    list-style: none;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box_card {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 60em;
+    background: var(--celeste);
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+    padding: 1em;
+}
+p {
+    font-size: 0.8em;
+    color: var(--dark);
+    letter-spacing: 1px;
+}
+.descripcion {
+    font-size: 15px;
+}
+.images-size{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & img {
+        width: 20em;
+    }
+    & .botones_slide {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+
+        & span {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--light); 
+        }
+
+        & .focus {
+            background: var(--dark);
+        }
+    }   
+
+        & .pick {
+            text-transform: uppercase;
+        }
+
+        & .tamanos {
+            display: flex;
+            justify-content: flex-start;
+            gap: 0.4em;
+
+        & span {
+            border: 1px solid var(--light);
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2px;
+            font-size: 0.7em;
+            
+        &:hover {
+            background: var(--celeste_claro);
+            color: var(--black);
+            transition: all 0,4s ease-in-out;
+        }
+    }
+    & .focus {
+            background: var(--celeste_claro);
+            color: var(--white);
+            
+        }
+    }
+}
+.add {
+    background-color: #87C4FF;
+}
+.add:hover {
+    background: var(--light);
+}
+.like { 
+    background-color: #87C4FF;
+}
+.like:hover {
+    background: var(--light);
+    transition: 0.5s;
+    padding: 3px 5px;
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+}
