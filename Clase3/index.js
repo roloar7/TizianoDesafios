@@ -1,4 +1,4 @@
-//Comprar por cantidad//
+//Comprar zapatillas por cantidad//
 button.addEventListener('click', e => {
 
     let nombreProducto = "zapatillas"
