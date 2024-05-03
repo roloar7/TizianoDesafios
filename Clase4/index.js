@@ -6,7 +6,6 @@ button.addEventListener('click', e => {
     let cantidadDeseada = prompt(`Ingrese la cantidad de ${nombreProducto} que quiere comprar:`); 
     let costoTotal = precioUnitario * cantidadDeseada;
     let porcentaje = costoTotal * 10 / 100;
-    let stockRestante = 20; 
 
     
     if (cantidadDeseada > 0) {
@@ -73,7 +72,3 @@ button.addEventListener('click', e => {
     console.log("El total gastado en el producto es: $" + totalCompra);
         
 })
-
-//Numero de cantidad restante de Nike dunk low (Stock)//
-
-
